@@ -1,0 +1,15 @@
+
+<table>
+    <thead>
+        <tr>
+            <th>Course Name</th>
+            <th>Pass Score</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let faculty of details">
+            <td>{{ faculty.courseName }}</td>
+            <td>{{ faculty.passScore }}</td>
+        </tr>
+    </tbody>
+</table>

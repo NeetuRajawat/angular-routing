@@ -1,0 +1,24 @@
+
+<div>
+    <h2>Course Details-</h2>
+</div>
+
+<table>
+    <thead>
+        <tr>
+           
+            <th>Course Name</th>
+            <th>Duration Hours</th>
+            <th>Pass Score</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let course of details">
+            <td>{{ course.courseName }}</td>
+            <td>{{ course.durationHours }}</td>
+            <td>{{ course.passScore }}</td>
+        </tr>
+    </tbody>
+</table>
+
+

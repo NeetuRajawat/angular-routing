@@ -1,0 +1,17 @@
+
+<table>
+    <thead>
+        <tr>
+            <th>Course Name</th>
+            <th>Faculty Name</th>
+            <th>Contact</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let faculty of details">
+            <td>{{ faculty.courseName }}</td>
+            <td>{{ faculty.facultyName }}</td>
+            <td>{{ faculty.facultyMobile }}</td>
+        </tr>
+    </tbody>
+</table>

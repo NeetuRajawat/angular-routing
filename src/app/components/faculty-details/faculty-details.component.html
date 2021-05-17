@@ -1,0 +1,29 @@
+
+<div>
+    <h2>Faculty Details-</h2>
+</div>
+
+<table>
+    <thead>
+        <tr>
+           
+            <th>Faculty Name</th>
+            <th>Faculty Mobile</th>
+            <th>Email</th>
+            <th>Highest Qualification</th>
+            <th>Work Location</th>
+           
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let faculty of details">
+            <td>{{ faculty.facultyName }}</td>
+            <td>{{ faculty.facultyMobile }}</td>
+            <td>{{ faculty.facultyEmail }}</td>
+            <td>{{ faculty.highestQualification }}</td>
+            <td>{{ faculty.workLocation }}</td>
+        </tr>
+    </tbody>
+</table>
+
+
